@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start max-w-3xl">
-        <h1 className="text-lg">Hi, Patrick! You're a bubjub!</h1>
+        <h1 className="text-lg">Hi, Patrick! You&apos;re a bubjub!</h1>
         
         {/* Paragraphs */}
         <p className="text-base leading-relaxed">
@@ -24,7 +24,7 @@ export default function Home() {
 
         {/* GoFundMe Link */}
         <p className="text-base leading-relaxed">
-          I'm currently raising funds for a special project. If you'd like to contribute, please check out my <a href="https://gofundme.com/fundraiser-link" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">GoFundMe</a>. Your support means the world to me!
+          I&apos;m currently raising funds for a special project. If you&apos;d like to contribute, please check out my <a href="https://gofundme.com/fundraiser-link" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">GoFundMe</a>. Your support means the world to me!
         </p>
 
         {/* More to come message */}
