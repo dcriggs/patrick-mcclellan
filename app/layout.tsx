@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Patrick McClellan",
+  title: "@acropatrick",
   description: "Adventures in ultrarunning, acroyoga, healthy living, and life coaching",
 };
 

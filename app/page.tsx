@@ -39,9 +39,7 @@ export default function Home() {
 
         {/* "Here’s how you can help" Section */}
         <div className="text-left">
-          <p className="text-base leading-relaxed">
-            Here’s how you can help:
-          </p>
+          <p className="text-base leading-relaxed">Here’s how you can help:</p>
           <ol className="list-decimal ml-8">
             <li>
               <strong>Donate</strong>—if you believe in this mission, please
@@ -69,7 +67,7 @@ export default function Home() {
             on their own terms.
           </p>
 
-          {/* Fundraiser Text with CTA Button */}
+          {/* Fundraiser Text */}
           <p className="text-base leading-relaxed">
             Thank you so much for your support—let’s make a difference together!
           </p>
@@ -85,6 +83,19 @@ export default function Home() {
               Donate Now
             </a>
           </div>
+
+          {/* Instagram Handle */}
+          <p className="text-base">
+            Follow my journey with live updates on Instagram:{" "}
+            <a
+              href="https://instagram.com/acropatrick"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+            >
+              @acropatrick
+            </a>
+          </p>
         </div>
 
         {/* Outdoor Fun Image */}
