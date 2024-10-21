@@ -75,7 +75,7 @@ export default function Home() {
           {/* CTA Button */}
           <div className="flex justify-center w-full">
             <a
-              href="https://donorbox.org/fkt-in-the-himalayas-annapurna-circuit-charity-run"
+              href="https://www.gofundme.com/f/help-patrick-save-lives-with-his-annapurna-run/donate"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-[#963934] hover:bg-[#e2554a] text-white font-semibold py-2 px-4 rounded-md transition duration-300 ease-in-out w-full sm:w-auto text-center"
