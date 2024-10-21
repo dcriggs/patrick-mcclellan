@@ -96,6 +96,25 @@ export default function Home() {
               @acropatrick
             </a>
           </p>
+          
+          {/* Strava Handle */}
+          <p className="text-base">
+          I’m most active on{" "}
+            <a
+              href="https://strava.app.link/m2pPIeYbSNb"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+            >
+              Strava
+            </a>
+          </p>
+
+          <script
+            async
+            src="https://eocampaign1.com/form/5a55bf24-8f96-11ef-8f14-85979293dbf8.js"
+            data-form="5a55bf24-8f96-11ef-8f14-85979293dbf8"
+          ></script>
         </div>
 
         {/* Outdoor Fun Image */}
