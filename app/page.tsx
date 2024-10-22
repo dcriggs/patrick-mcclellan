@@ -1,5 +1,4 @@
 import Image from "next/image";
-import InstagramEmbed from "./instagram";
 
 export default function Home() {
   return (
@@ -97,10 +96,23 @@ export default function Home() {
               @acropatrick
             </a>
           </p>
-          
+
+          {/* Instagram Video Link */}
+          <p className="text-base">
+            Check out my latest video:{" "}
+            <a
+              href="https://www.instagram.com/reel/DBYnfGjSUg3/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 underline"
+            >
+              🚨 Big Challenge Alert 🚨
+            </a>
+          </p>
+
           {/* Strava Handle */}
           <p className="text-base">
-          I’m most active on{" "}
+            I’m most active on{" "}
             <a
               href="https://strava.app.link/m2pPIeYbSNb"
               target="_blank"
@@ -117,8 +129,6 @@ export default function Home() {
             data-form="5a55bf24-8f96-11ef-8f14-85979293dbf8"
           ></script>
         </div>
-
-        <InstagramEmbed />
 
         {/* Outdoor Fun Image */}
         <div className="w-full mt-8">
