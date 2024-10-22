@@ -1,4 +1,5 @@
 import Image from "next/image";
+import InstagramEmbed from "./instagram";
 
 export default function Home() {
   return (
@@ -116,6 +117,8 @@ export default function Home() {
             data-form="5a55bf24-8f96-11ef-8f14-85979293dbf8"
           ></script>
         </div>
+
+        <InstagramEmbed />
 
         {/* Outdoor Fun Image */}
         <div className="w-full mt-8">
